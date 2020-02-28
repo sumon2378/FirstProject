@@ -16,5 +16,12 @@
       <class name="com.common.CrossBrowser"/>
       
     </classes>
+    </test>
+  <test name="operatest">
+  <parameter name="browser" value="Opera"></parameter>
+    <classes>
+      <class name="com.common.CrossBrowser"/>
+      
+    </classes>
   </test>
 </suite>
