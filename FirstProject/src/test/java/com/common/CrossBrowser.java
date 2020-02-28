@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.opera.OperaDriver;
 
 
 
@@ -34,6 +35,10 @@ public class CrossBrowser {
 	else if (BrowserName.equalsIgnoreCase("firefox")) {
 		System.setProperty("webdriver.gecko..driver", "./Browser/geckodriver.exe");
 		driver=new FirefoxDriver();
+		}
+	else if (BrowserName.equalsIgnoreCase("opera")) {
+		System.setProperty("webdriver.opera.driver", "./Browser/operadriver");
+		driver=new OperaDriver();
 		}
 	
 	driver.get("https://www.amazon.com");
