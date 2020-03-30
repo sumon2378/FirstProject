@@ -1,4 +1,4 @@
-Feature: create an account in amazon
+Feature: create an account 
 Scenario: User able to sing up with credentials
 Given User able to go home page
 When User able to click account
