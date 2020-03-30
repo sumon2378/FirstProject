@@ -17,8 +17,8 @@ public class HttpHandel {
 		
 		
 		
-		http://username:password@url
-		http://creyate:jamesbond007@alpha.creyate.com
+		//http://username:password@url
+		//http://creyate:jamesbond007@alpha.creyate.com
 			
 			
 	}
